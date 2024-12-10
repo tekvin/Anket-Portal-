@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        background: linear-gradient(to bottom right, #f8f9fa, #e9ecef); /* Gradyan arkaplan */
+        font-family: 'Arial', sans-serif;
+    }
+
+    .display-4 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    }
+
+    .rounded-circle {
+        border: 5px solid #007bff; /* Çerçeve rengi */
+        padding: 5px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px; /* Daha modern köşeler */
+    }
+
+    .card-header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .btn {
+        font-size: 1.1rem; /* Daha büyük yazı */
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    .btn i {
+        margin-right: 8px; /* Buton simgeleri için boşluk */
+    }
+
+    .mt-5 {
+        margin-top: 3rem;
+    }
+</style>
+
+<div class="container mt-5 text-center">
+    <!-- Başlık kısmı -->
+    <div class="mb-4">
+        <h1 class="display-4 text-primary font-weight-bold">Emirhan Şener</h1>
+        <p class="lead text-muted">Web geliştirici , Python geliştirici , Veri analisti</p>
+    </div>
+
+    <!-- Profil Fotoğrafı ve Hakkında Kısmı -->
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <img src="\img\1.jpg" alt="Profil Fotoğrafı" class="img-fluid rounded-circle shadow-lg mb-4" />
+        </div>
+    </div>
+
+    <!-- Kısa Tanıtım -->
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="card-title font-weight-bold">Hakkımda</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Merhaba, ben bir yazılımcıyım ve bilgisayar programlama dünyasına tutkulu bir şekilde adım atan biriyim. 
+                        Yazılım geliştirme sürecinde yer almak, karmaşık problemleri çözmek ve yaratıcı çözümler üretmek benim için büyük bir heyecan kaynağıdır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bağlantılar ve Sosyal Medya -->
+    <div class="mt-4">
+        <h4 class="mb-3">Bağlantılarım</h4>
+        <div>
+            <a href="https://www.linkedin.com/in/emirhan-%C5%9Fener-a67405298/" target="_blank" class="btn btn-primary btn-lg mr-2 shadow-sm">
+                <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/tekvin" target="_blank" class="btn btn-dark btn-lg mr-2 shadow-sm">
+                <i class="bi bi-github"></i> GitHub
+            </a>
+            <a href="mailto:emirhansener6634@gmail.com" class="btn btn-success btn-lg shadow-sm">
+                <i class="bi bi-envelope"></i> E-posta
+            </a>
+        </div>
+    </div>
+</div>
